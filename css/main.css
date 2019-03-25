@@ -1,0 +1,68 @@
+.navbar-brand{
+    height: 100%;
+    margin-right: 5em;
+}
+
+.navbar-header, .nav, .navbar-nav, .navbar-collapse, .collapse, .container-fluid{
+    background: #fff;
+    color: #000;
+}
+
+nav, .navbar, .navbar-default, .navbar-fixed-top{
+    background: #fff;
+}
+
+.navbar-default .navbar-nav > .active{
+    color: #000;
+    background: #d65c14;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #fff;
+    background: #588efb;
+    font-weight: bolder;
+}
+
+.navbar-toggle, .navbar-toggle>collapsed{
+    margin-top: 1.5em;
+    background: none;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: #333;
+}
+
+.body-presentation{
+    margin-top: 7em;
+    background: transparent;
+    width: 100%;
+}
+
+.image-top-fake{
+    width: 95%;
+}
+
+.decorated-unordened-list{
+    list-style: square inside;
+    /*the blue cube didn't worked on my browser, check into the yours plz*/
+    list-style-image: url('img/skills/udl.png');
+    font-size: 2em;
+}
+
+.nav-pills{
+    padding: 5em;
+}
+
+.distancia{
+    margin-left: 15em;
+    margin-top: 5em;
+    position: absolute;
+    z-index: -1;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    color: #fff;
+    background-color: #588efb;
+    font-weight: bolder;
+}
